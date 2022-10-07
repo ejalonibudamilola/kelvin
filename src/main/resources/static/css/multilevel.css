@@ -1,0 +1,167 @@
+.imagebgworks{
+	/* background: #f2f9fe; Old browsers
+background: -moz-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%); FF3.6-15
+background: -webkit-linear-gradient(top, #f2f9fe 0%,#d6f0fd 100%); Chrome10-25,Safari5.1-6
+background: linear-gradient(to bottom, #f2f9fe 0%,#d6f0fd 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 ); */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.moduleButtons{
+	padding: 30px;
+}
+.signOut{
+	color:red;
+	font-style: red;
+}
+tr.odds {background-color: #FCFCFC}
+tr.evens {background-color: #EBEBEB}
+.holder{
+	border-bottom: 1px thin; background-color: #ffffff;
+}
+headTable{
+	background-color: #9BA9B3;
+}
+.fonttang{
+	font-family: 'Arvo', serif
+	font-size: 16pt
+}
+
+.shadow {
+ /*  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc; */
+  padding: 10px;
+  height:60px;
+  background: url("../img/crossword.png") repeat ;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+   box-shadow: 0 8px 6px -6px black;
+   width: 480px;
+}
+
+.shadow a{
+	font-weight: bold;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+filterrow{
+	 outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+#count{
+	color: red;
+    font-weight: bold;
+    font-size: 19px;	
+}
+#typedin{
+	font-style: italic;
+	color:green;
+	 font-size: 24px;
+}
+.loadingrover{
+	margin-left: 5%;
+	margin-top: 1%;
+	 display: none;
+}
+.boldloader{
+	font-size: 20px;
+	
+}
+.leftpull{
+	margin-left:-30px;
+}
+.rightpull{
+	margin-right :-30px;
+}
+
+/* for list role = presentation */
+.li_role{
+	width: 480px; margin: 15px; 
+	/*background-color: #fcf9f4;*/
+	color: #50607f;
+    border-color: #d0d9df;
+    background-color: #f0f9ff;
+}
+
+.setMargin1{
+	margin: 1% !important;
+}
+
+.panel-default{
+	height: auto !important;
+}
+.clear { clear: both; }
+
+
+li:first-child {
+  /*margin-left: 0px !important;*/
+}
+
+div.DTS div.dataTables_scrollBody{
+	background: none !important;
+}
+
+.mainBody{
+	padding-right: 12px !important;
+}
+
+.nav-pills{
+margin: 0% !important;
+}
+
+/*#notification-msg{
+left: 18% !important;
+top: 22% !important;
+}*/

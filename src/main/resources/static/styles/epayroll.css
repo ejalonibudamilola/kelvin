@@ -1,0 +1,255 @@
+@CHARSET "UTF-8";
+
+/* jacs related styling....  */
+.jacs,.jacsStatic {
+	padding: 1px;
+	vertical-align: middle;
+	background-color:#efefef;
+	
+}
+
+iframe.jacs {
+	position: absolute;
+	visibility: hidden;
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	height: 1px;
+}
+
+table.jacs,table.jacsStatic {
+	padding: 1px;
+	visibility: hidden;
+	width: 200px;
+	cursor: default;
+	border:0px;
+	text-align: center;
+	background-color:#efefef;
+	font-family:verdana;
+	font-size:10px;
+	font-weight: bold;
+}
+
+table.jacs {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+td.jacsDrag,td.jacsHead {
+	padding: 0px 0px;	
+	text-align: center;
+}
+
+td.jacsDrag {
+	font-size: 10px;
+}
+
+select.jacsHead {
+	margin: 3px 1px;
+	font-size: 10px;
+	font-family: verdana;
+	padding:5px;
+}
+
+input.jacsHead {
+	padding:5px;
+	vertical-align: middle;
+	text-align: center;
+	margin: 2px 1px;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: verdana;
+}
+
+td.jacsWeekNumberHead,td.jacsWeek {
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+td.jacsNow,td.jacsNowHover,td.jacsNow:hover,td.jacsNowDisabled {
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+table.jacsCells {
+	text-align: right;
+	font-size: 10px;
+	width: 96%;
+}
+
+td.jacsCells,td.jacsCellsHover,td.jacsCells:hover,td.jacsCellsDisabled,td.jacsCellsExMonth,td.jacsCellsExMonthHover,td.jacsCellsExMonth:hover,td.jacsCellsExMonthDisabled,td.jacsCellsWeekend,td.jacsCellsWeekendHover,td.jacsCellsWeekend:hover,td.jacsCellsWeekendDisabled,td.jacsCellsHighlighted,td.jacsCellsHighlightedHover,td.jacsCellsHighlighted:hover,td.jacsCellsHighlightedWeekend,td.jacsCellsHighlightedWeekendHover,td.jacsCellsHighlightedWeekend:hover,td.jacsInputDate,td.jacsInputDateHover,td.jacsInputDate:hover,td.jacsInputDateDisabled,td.jacsWeekNo,td.jacsWeeks
+	{
+	padding: 3px;
+	width: 16px;
+	height: 16px;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	font-size:10px;
+	vertical-align: middle;
+}
+
+/* Blend the colours into your page here...    */
+	/* Calendar background */
+table.jacs,table.jacsStatic {
+	background-color: #efefef;
+}
+
+/* Drag Handle */
+td.jacsDrag {
+	background-color: #9999CC;
+	color: #CCCCFF;
+}
+
+/* Week number heading */
+td.jacsWeekNumberHead {
+	color: #6666CC;
+}
+
+/* Week day headings */
+td.jacsWeek {
+	color: #CCCCCC;
+}
+
+/* Week numbers */
+td.jacsWeekNo {
+	background-color: #776677;
+	color: #CCCCCC;
+}
+
+/* Enabled Days */ /* Week Day */
+td.jacsCells {
+	border:1px dashed #000000;
+	color: #000000;
+	font-size:9px;
+	font-weight:normal;
+}
+
+/* Day matching the input date */
+td.jacsInputDate {
+	background-color: #CC9999;
+	color: #FF0000;
+}
+
+/* Weekend Day */
+td.jacsCellsWeekend {
+	color: #CC6666;
+	font-size:9px;
+	font-weight:normal;
+}
+
+/* Day outside the current month */
+td.jacsCellsExMonth {
+	background-color: #CCCCCC;
+	color: #666666;
+}
+
+/* Today selector */
+td.jacsNow {
+	font-family:verdana;
+	font-size:10px;
+	color: #2DD0DD;
+}
+
+/* MouseOver/Hover formatting  
+                  If you want to "turn off" any of the formatting  
+                  then just set to the same as the standard format 
+                  above.  
+             
+                  Note: The reason that the following are 
+                  implemented using both a class and a :hover 
+                  pseudoclass is because Opera handles the rendering 
+                  involved in the class-swap very poorly and IE6  
+                  (and below) only implements pseudoclasses on the 
+                  anchor tag. 
+           */ /* Highlighted Days */ /* Week Day */
+td.jacsCellsHighlighted {
+	background-color: #E0E0E0;
+	color: #FF0000;
+}
+
+/* Weekend Day */
+td.jacsCellsHighlightedWeekend {
+	background-color: #E0E0E0;
+	color: #CC6666;
+}
+
+/* Active cells */
+td.jacsCells:hover,td.jacsCellsHover,td.jacsCellsHighlighted:hover,td.jacsCellsHighlightedHover,td.jacsCellsHighlightedWeekend:hover,td.jacsCellsHighlightedWeekendHover
+	{
+	background-color: #2DD0DD;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+/* Day matching the input date */
+td.jacsInputDate:hover,td.jacsInputDateHover {
+	background-color: #FFFF00;
+	cursor: pointer;
+	color: #000000;
+}
+
+/* Weekend cells */
+td.jacsCellsWeekend:hover,td.jacsCellsWeekendHover {
+	background-color: #FFFF00;
+	cursor: pointer;
+	color: #000000;
+}
+
+/* Day outside the current month */
+td.jacsCellsExMonth:hover,td.jacsCellsExMonthHover {
+	background-color: #FFFF00;
+	cursor: pointer;
+	color: #000000;
+}
+
+/* Clear Button */
+td.Clear {
+	padding: 0px;
+}
+
+input.Clear {
+	padding: 0px;
+	text-align: center;
+	font-size: 10px;
+}
+
+/* Today selector */
+td.jacsNow:hover,td.jacsNowHover {
+	color: #FFFF00;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* Disabled cells */ /* Week Day */ /* Day matching the input date */
+td.jacsInputDateDisabled {
+	background-color: #999999;
+	color: #000000;
+}
+
+td.jacsCellsDisabled {
+	background-color: #999999;
+	color: #000000;
+}
+
+/* Weekend Day */
+td.jacsCellsWeekendDisabled {
+	background-color: #999999;
+	color: #CC6666;
+}
+
+/* Day outside the current month */
+td.jacsCellsExMonthDisabled {
+	background-color: #999999;
+	color: #666666;
+}
+
+td.jacsNowDisabled {
+	background-color: #6666CC;
+	color: #FFFFFF;
+}

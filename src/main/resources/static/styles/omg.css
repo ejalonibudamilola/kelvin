@@ -1,0 +1,2156 @@
+body {
+	font-family : Verdana;
+	font-size : 8pt;
+	background-color: #FFFFFF;
+	margin: 0px 5px 0px 0px;
+	text-decoration:none;
+}
+
+body.sample {
+	background :url(/images/samplemark.gif);
+}
+
+body.sample .navSide {
+	background : url(/images/samplemark.gif); 
+	background-position: -14px -13px;
+}
+
+body.sample .navFooter {
+	background : url(/images/samplemark.gif); 
+	background-position: 0px 20px;
+}
+
+table
+{ 
+	font-size: 8pt;
+}
+
+#correct {
+	font-size: 8pt;
+}
+
+.fn {
+	font-size : 7pt;
+}
+
+.fn a:link,
+.fn a,
+.fn a:visited {
+	font-size : 7pt;
+}
+
+.readonlystyle {
+	 background: #ccc;
+}
+
+.mainContent ul,
+.mainBody ul {
+	list-style-image : url(/images/list_greybullet.gif);	
+}
+#fixedpikso {
+	position: fixed;
+	top: 270px;
+	left: 8.4%;
+	width: 80px;
+	height: 80px;
+	padding: 3px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#fixedpikso2 {
+	position: fixed;
+	top: 380px;
+	left: 8.4%;
+	width: 80px;
+	height: 80px;
+	padding: 3px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+a,
+a:link {
+	color : #405EBE;
+	font-size : 8pt;
+	font-family: verdana;
+}
+
+a:hover {
+	color : #0000FF;
+}
+
+.notCustomerBox {
+	font-size : 8pt;	
+	padding : 20px 5px 10px 5px;
+}
+
+.contentlink {
+	color : blue;						/* Help Index page - Blue on purpose */
+	TEXT-DECORATION: underline;	
+}
+
+.actionlink {
+	color : #800080;					/* Help Index page - Purple on purpose */
+	TEXT-DECORATION: underline;
+}
+
+.sectionlink {							/* No longer appears to be used */
+	color : #663399;
+	TEXT-DECORATION: underline;
+}
+
+#homepage {								/* No longer appears to be used */
+	width : 60%;
+}
+
+.homepageHeader {						/* Used by measure.jsp & home.jsp that's now redirected to external/home.jsp */
+	background-color : #9397A2;
+}
+
+.homepageMainBody {						/* Used by home.jsp that's now redirected to external/home.jsp */
+	background-color : #DDEAE2;
+}
+
+.homepageOrganicListing {				/* Used by home.jsp that's now redirected to external/home.jsp */
+	list-style : none outside url(../images/standard/icons/squareBullet.gif);
+	position : relative;
+	left : -20px;
+}
+.userName {
+    color: #000;
+    font-weight: normal;
+	font-size: .89em;					/* BofA CSS defines this as .85em; needs to be .75em to match the same size */
+        line-height: 21px;
+	display: block;
+	margin: 0px;
+	padding-top : 15px;					/* These values are related to .navTopBanner padding values */
+	/*padding-right : 5px;*/
+	padding-bottom : 5px;
+	padding-left : 11px;
+	float: left;
+}
+.ola {
+	font-size : 8pt;
+}
+
+.featureLinks {							/* No longer appears to be used */
+	position : relative;
+	top : -10px;
+}
+
+.leftNavSupport,						/* Right-side "Questions?" support box */
+.leftNavSupport a {
+	font-size : 7pt;
+	font-family : Verdana;
+}
+
+.leftNavSupport {						/* Right-side "Questions?" support box */
+	border : 1px solid #D3E2EF;
+	padding : 5px;
+	background-color : #F0F5FA;
+}
+
+.leftNavSupportTitle {					/* Right-side "Questions?" support box */
+	font-size : 7pt;
+	font-family : Verdana;
+	font-weight : bold;
+	padding : 4px 5px 4px 5px;
+	background-color : #D3E2EF;
+	border-bottom : 1px solid white;
+}
+
+.note {									/* Used for text Notes such as in the Signup Form */
+	font-size : 8pt;
+}
+
+.label {								/* e.g. Setup Overview bolded labels (\account\client.jsp) */
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #333333;
+}
+
+.initialText {
+	font-weight : normal;
+	color : black;	
+}
+
+.error {								/* Red informational/error messages at the top of pages */
+	font-size : 10pt;
+	font-weight : bold;
+	border : 1px solid black;
+	padding : 10px 10px 10px 57px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	background-image : url(../images/bofa/icons/alertInformational.gif);
+	background-repeat : no-repeat;
+	background-position : center left;
+}
+
+.activeTH {								/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	background-color : #E1E1E1;
+	color : black;
+	font-weight : bold;
+	font-size : 8pt;
+	padding : 5px;
+	border-style : solid;
+	border-width : 1px;
+	border-color : white;
+	border-left-style : none;
+	border-right-style : none;
+	text-align : left;
+}
+
+.activeTD {								/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	background-color : #F0F7D2;
+	color : black;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #E1E1E1;
+}
+.activeTDReport {								/* BRANDING TEMPLATE TABLE 1; e.g. For Report Filter */
+	background-color : #E2E2E2;
+	color : black;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #E1E1E1;
+}
+.reportClass {								/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	background-color : #0000FF;
+	color : black;
+	border-style : solid;
+	border-width : 2px;
+	border-color : #E1E1E1;
+}
+.buttonRow {							/* Side-by-side "Next" "Exit Wizard" button row */
+	text-align : left;					/* NOTE: this overrides any alignment setting of the buttons in the jsp! */
+	padding-top : 10px;
+}
+
+.infoBox {								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #CCCCCC;
+}
+
+.condensedInfoBox {						/* BRANDING TEMPLATE TABLE 3; Specifically, Employee & Contractor Overview */
+	border-style : solid;
+	border-width : 1px;
+	border-color : #CCCCCC;
+	border-left-style : none;
+	border-right-style : none;
+	width : 100%;
+}
+
+.infoTH,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTH2 {
+	padding-top : 5px;
+	padding-right : 20px;
+	padding-bottom : 5px;
+	padding-left : 10px;
+	font : normal normal bold 9pt Verdana;
+	background-color : #F1F1F1;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #CCCCCC;
+	text-align : left;
+}
+
+.infoTD,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTD2 {
+	background-color : #F7F7F7;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+}
+
+.infoTROdd,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTREven {
+	background-color : #FFFFFF;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #CCCCCC;	
+	font-size : 8pt;
+	font-family : Verdana;
+}
+
+.condensedInfoTREven,					/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.condensedInfoTROdd {
+	background-color : #FFFFFF;
+	padding : 5px;
+}
+
+.condensedInfoTRSelected {				/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+	background-color : #D7E6F0;
+	padding : 5px;
+	cursor : pointer;
+}
+
+.infoFooter {							/* e.g. Work Locations Overview page, table row with "Add a Work Location" link */
+	background-color : #EAF1F7;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #989CA5;
+}
+
+.formTable {							/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	width : 748px;						/* Content well has a fixed width */
+}
+
+.formTable1 {							/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	width : 100%;						/* Content well has a fixed width */
+}
+
+
+.simpleFrame td {						/* Used by \pay\payDayReports.jsp */
+	padding : 2px 20px 2px 5px;
+}
+
+.title {								/* Page title */
+	font-family : Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	font-stretch : normal;
+	color: #D4001A;
+/*	width : 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	padding-top : 5px;					/* Padding above page title */
+	padding-right : 0px;
+	padding-bottom : 8px;				/* Padding below page title before line */
+	padding-left : 12px;				/* Whitespace to left of title (and content well) */
+	border-bottom-style: solid;			/* Line below page title */
+	border-bottom-width: 1px;
+	border-bottom-color: #C1C1C1;
+}
+
+.titlePrinterFriendly {					/* Printer-friendly page title */
+	font-family : Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	font-stretch : normal;
+	color: #D4001A;
+/*	width : 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	padding-top : 10px;					/* Padding above page title */
+	padding-right : 20px;
+	padding-bottom : 10px;				/* Padding below page title before line */
+	padding-left : 0px;					/* PrinterFriendlyHTMLReportWriter.java sets an overall margin-left : 20px */
+}
+
+.serviceTitle {							/* \services\accountant_payroll.jsp page title */
+	font-size: 17pt;
+	font-weight : bolder;
+	color: #808080;
+	margin : 5px 0px 15px 0px;
+}
+
+.offerTextTitle {						/* Offer text title such as during Signup flow */
+	font-size : 13pt;
+}
+
+.notificationTitle {					/* No longer appears to be used */
+	font-size: 12pt;
+	font-weight: bold;
+	color: #669999;
+}
+
+.notification {							/* No longer appears to be used */
+	font-size: 10pt;
+	font-weight: normal;
+	color: #808080;
+}
+
+/* The following .navTop through .navTopGreyLines matches values from the BofA sample CSS except as noted below */
+.navTop {								/* Top area where left-side logo displays */
+	width : 1000px;						/* Header/tabset width */
+}
+
+.navTop a {
+	text-decoration: none;				/* Default: no underlined anchor link */
+}
+
+.navTop a:hover {
+	text-decoration: underline;			/* Default: underlined anchor link hover */
+}
+
+.navTop ul {
+	list-style: none;					/* Default: no bullets for unordered lists */
+}
+
+.navTop ul li {
+	float: left;
+}
+
+.navTopLogo img {						/* Exact positioning of top left-side logo; Not from BofA sample CSS */
+	float : left;						/* Required for forcing the logo gif to be on the left */
+	margin-left: 14px;
+	margin-top: 17px;
+}
+
+.navTopLinks {							/* Top area gradient background and spacing of right-side links */
+/*	background-color : #B75F5E;*/		/* Debugging red background color */
+}
+
+.navTopBannerAndSignOffLink { 
+	float: right;						/* Right-justify "Online Business Suite" gif and Sign Off logo */
+}
+
+.navTopBanner {
+	margin: 0px;
+	display: block;
+	padding-top : 16px;					/* Adjust "Online Business Suite" logo to match BofA CSS exactly */
+	padding-right : 0px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	float: left;
+}
+
+.navTopSignOff a,
+.navTopSignOff a:visited {
+	color: #D40019;
+	font-weight: bold;
+	font-size: .75em;					/* BofA CSS defines this as .85em; needs to be .75em to match the same size */
+	display: block;
+	margin: 0px;
+	padding-top : 15px;					/* These values are related to .navTopBanner padding values */
+	padding-right : 35px;
+	padding-bottom : 5px;
+	padding-left : 11px;
+	float: left;
+}
+
+.navTopExternalLinks {
+	clear: right;
+	width: 100%;
+	font-size: .915em;
+}
+
+.navTopExternalLinks ul {
+	float : right;						/* Grey line above Utility menu links */
+	width : auto;
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #C1C1C1;
+	margin-top : 8px;
+}
+
+.navTopExternalLinks ul li {
+	padding-top : 1px;
+	padding-right : 7px;
+	padding-bottom : 0px;
+	padding-left : 7px;
+	background: no-repeat url(../images/bofa/icons/list_UtilityNav_bullet.gif) 0px .90em;
+	/* mac ie wants to see width here */
+}
+
+.navTopExternalLinks ul li.first {
+	background-image: none;
+}
+
+.navTopExternalLinks ul li a,
+.navTopExternalLinks ul li a:visited {
+	color: #666;
+	font-size: .915em;					/* Added  in order to match BofA CSS font size */
+	font-weight: bold;
+	padding: 4px 0 2px 0;				/* BofA CSS bottom padding is 4px; we need 2px to match */
+	display: block;
+	margin: 0;
+	cursor: pointer;
+}
+
+.navTopExternalLinks ul li a:hover {
+	color: #5c94d0;
+	text-decoration: none;
+}
+
+.navTopExternalLinks li.curItem2 a	{			/* Third-level navigation links */
+	color: #5c94d0;
+	text-decoration: underline;
+}
+.navTopExternalLinks li.curItem2 a:visited {
+	text-decoration: none;				/* Currently selected item: no underlined anchor link */
+}
+
+.navTopExternalLinks li.curItem2 a:hover {		/* Third-level navigation links */
+	text-decoration: none;			/* Currently selected item: underlined anchor link hover */
+}
+
+.navTopGreyLines {						/* Grey line above Utility menu links */
+/*	width: 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	height: 5px;
+	background: repeat-x url(../images/bofa/nav_top_greyline.gif) 0px 0px;
+/*	float: left;*/						/* Commented out - Causes horizontal scrollbar */
+	line-height: 0;
+	font-size: 0;
+}
+
+.navTopBarBehindTopTabs {				/* Main tabs background bar */
+	height : 23px;
+	background-image : url(../images/bofa/tab_background2.gif);
+	background-repeat : repeat-x;
+}
+
+.navTopBarBehindTopTabs2 {				/* Second-level tabs background bar */
+	height : 23px;
+	background-image : url(../images/bofa/tab_background.gif);
+	background-repeat : repeat-x;
+}
+
+.navTop2Links {							/* Third-level navigation links */
+/*	width : 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	text-align : right;
+	white-space : nowrap;
+}
+
+.navTop2Links li {						/* Third-level navigation links */
+	display: inline;
+	list-style-type: none;
+}
+
+.navTop2Links li.curItem a,				/* Third-level navigation links */
+.navTop2Links li.curItem a:visited {
+	text-decoration: none;				/* Currently selected item: no underlined anchor link */
+}
+
+.navTop2Links li.curItem a:hover {		/* Third-level navigation links */
+	text-decoration: underline;			/* Currently selected item: underlined anchor link hover */
+}
+
+.mainBody {								/* Overall body text padding */
+	font-size : 8pt;
+	width : 748px;						/* Content well has a fixed width */
+	padding-top : 10px;					/* Top padding below page title */
+	padding-right : 0px;
+	padding-bottom : 15px;
+	padding-left : 12px;
+}
+
+.mainBody * {
+	font-size : 8pt;
+}
+
+.mainBody .fn {
+	font-size : 7pt;	
+}
+
+.navSide {								/* 2007R3.0: Now a non-navigation right-side column */
+	background-color : #FFFFFF;
+	width : 168px;						/* Side module width */
+	height : 493px;  					/* Makes each page 600px tall at least */
+	padding-top : 10px;					/* Padding below page title line */
+	padding-right : 0px;
+	padding-left : 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------
+   No longer used - Start of tags specifically for left-side navigation used by util/leftnav.inc
+   --------------------------------------------------------------------------------------------- */
+.navSideSectionHeader {
+	font : normal normal normal 9pt Verdana;
+	font-stretch : wider;
+	padding : 0px 10px 0px 10px;
+	white-space : nowrap;
+}
+
+.navSideMainMenu a,
+.navSideMainMenu a:hover {
+	cursor : pointer;
+	height : 20px;
+	font : normal normal normal 9pt Verdana;
+	font-stretch : wider;
+	padding : 0px 10px 0px 10px;
+	display : block;
+	color : #405EBE;
+	white-space : nowrap;
+}
+
+.navSideMainMenu a:hover {
+	color : #0000FF;
+}
+
+ul.navSideSubMenu {
+	border-style : none;
+	margin-top : 0px;
+	white-space : nowrap;
+}
+
+ul.navSideSubMenu li a,
+ul.navSideSubMenu li a:hover {
+	cursor : pointer;
+	height : 16px;
+	font : normal normal normal 8pt Verdana;
+	font-stretch : wider;
+	padding : 0px 10px 0px 20px;
+	display : block;
+	white-space : nowrap;
+}
+
+ul.navSideSubMenu li a:hover {
+	color : #405EBE;
+}
+/* ---------------------------------------------------------------------------------------------
+   No longer used - End of tags specifically for left-side navigation used by util/leftnav.inc
+   --------------------------------------------------------------------------------------------- */
+
+.navSideTitle {							/* Right-side My Setup Wizard title bar */
+	background-color : #B6CFE4;
+	height : 19px;
+	font-size : 9pt;
+	font-weight : bold;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : white;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+	margin : 0px;
+}
+
+.navSideWizardMenu {					/* Overall Setup Wizard settings */
+	background-color : #EAF1F7;
+	margin : 0px;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #B6CFE4;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+}
+
+.navSideWizardMenu li {					/* Right-side My Setup Wizard */
+	padding : 0px;						/* Padding around each list item */
+	list-style-type : none;				/* Turn off list item bullets */
+}
+
+.navSideWizardMenu a,					/* Right-side My Setup Wizard */
+.navSideWizardMenu a:hover {			/* Not currently selected Setup Wizard checkbox items */
+	height : 20px;
+	cursor : pointer;
+	font : normal normal normal 8pt Verdana;
+	font-stretch : wider;
+	padding-top : 3px;
+	padding-right : 10px;
+	padding-bottom : 3px;
+	padding-left : 24px;
+	display : block;
+	color : #405EBE;
+}
+
+.navSideWizardMenu a {					/* Right-side My Setup Wizard */
+	background-repeat : no-repeat;
+	background-image : url(../images/bofa/icons/wizardNoCheck.gif);
+	background-position : 0% 3px;
+}
+
+.navSideWizardMenu a:hover {			/* Currently selected (when hovering) Setup Wizard checkbox item */
+	color : #0000FF;
+}
+
+.navSideWizardMenu .navSideInterviewCompletedItem a {	/* Right-side My Setup Wizard */
+	padding-top : 3px;
+	background-repeat : no-repeat;
+	background-image : url(../images/bofa/icons/wizardYesCheck.gif);
+	background-position : 0% 3px;
+}
+
+.navSideWizardMenu #navSideInterviewSelectedAndCompletedItem a,		/* Right-side My Setup Wizard */
+.navSideWizardMenu #navSideInterviewSelectedAndIncompleteItem a {	/* Currently selected Setup Wizard checkbox item */
+	background-repeat : no-repeat;
+	background-position : 0% 3px;
+	padding-top : 3px;
+	position : relative;
+}
+
+.navSideWizardMenu #navSideInterviewSelectedAndCompletedItem a {		/* Right-side My Setup Wizard */
+	background-image : url(../images/bofa/icons/wizardYesCheck.gif);	/* Currently selected Setup Wizard checkbox item */
+	background-position : 0% 3px;
+}
+
+.navSideWizardMenu #navSideInterviewSelectedAndIncompleteItem a {		/* Right-side My Setup Wizard */
+	background-image : url(../images/bofa/icons/wizardNoCheck.gif);		/* Currently selected Setup Wizard checkbox item */
+	background-position : 0% 3px;
+}
+
+.navSideNonMenuItem {					/* Not used in BofA skin - My Setup Wizard box bottom blue bar */
+	font-size : 0pt;
+	height : 0px;
+	visibility : hidden;	
+}
+
+.horizontalBarMid {						/* Only used by /in/welcomeBack_bofa.jsp in BofA Gen 2 */
+	font-size : 7pt; 					/* since regular BofA Gen 2 navigation does not contain */
+	font-family : Verdana;				/* a red horizontal bar. */
+	background-color : #D4001A;
+	height : 16px;
+	width : 1000px;
+	empty-cells : show;
+/*	border-left-style : solid;*/		/* This caused erroneous vertical line to left of red bar */
+/*	border-left-color : #1E537F;
+	border-left-width : 1px;*/
+	text-align : right;
+}
+
+.horizontalBarMid a {
+	font-size : 7pt; 
+	font-family : Verdana;
+}
+
+.navFooter {							/* Footer links area */
+	background-color : #FFFFFF;
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #000000;
+	height : 32px;
+/*	width : 1000px;*/					/* No effect */
+	empty-cells : show;
+	text-align : left;
+	padding : 5px 0px 25px 5px;
+}
+
+.navFooter ul {							/* Footer links area */
+	display : inline;					/* Magic that makes list items display as a row */
+	margin-left : 0px;
+	padding-left : 0px;
+}
+
+.navFooter li {							/* Footer links area */
+	display : inline;					/* Magic that makes list items display as a row */
+	margin : 5px;
+	color : #405EBE;
+	font-size : 8pt;
+}
+
+.navFooter ul li a,						/* Footer links area */
+.navFooter ul li a:visited {
+	cursor: pointer;
+}
+
+.navFooter a {							/* Footer links area */
+	text-decoration : none;
+	font-size : 8pt;
+	color : #405EBE;
+}
+
+.footertext {							/* Footer copyright text area */
+	font-size : 7pt;
+	text-align : left;
+	width : 100%;
+	color : #969DA5;
+	padding-left : 15px;
+}
+
+.welcomePage {
+	width : 748px;
+}
+
+.welcomePage p#introText {
+	margin-left : 100px;
+}
+
+.welcomePageNavTop {					/* Top area for \in\welcome.jsp page */
+	height : 75px;
+	empty-cells : show;
+}
+
+.welcomePageNavTopHelpText {			/* Top area for \in\welcome.jsp page */
+	color : black;
+	font-size : 8pt;
+	white-space : nowrap;	
+}
+
+.welcomePageNavTopHelpText b {			/* Top area for \in\welcome.jsp page */
+	font-size : 11pt;
+}
+
+.welcomePageMainBox {					/* Used by \in\welcome.jsp page */
+	width : 542px;	
+	margin-left : 100px;
+}
+
+.welcomePageMainBox div {				/* Used by \in\welcome.jsp page */
+	text-align : right;
+	vertical-align : bottom;	
+}
+
+.welcomePageMainBox #left {				/* Used by \in\welcome.jsp page */
+	width : 323px;
+	border : 1px solid #C1C1C1;
+	padding : 20px 12px 10px 16px;
+	font-size : 8pt;
+}
+
+.welcomePageMainBox #left div {			/* Used by \in\welcome.jsp page */
+	text-align : left;	
+	margin-top : 10px;
+}
+
+.welcomePageMainBox #left p {			/* Used by \in\welcome.jsp page */
+	font-size : 8pt;
+}
+
+.welcomePageMainBox #mid {				/* Used by \in\welcome.jsp page */
+	width : 34px;
+}
+
+.welcomePageMainBox #right {			/* Used by \in\welcome.jsp page */
+	width : 196px;
+	border : 1px solid #C1C1C1;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	padding-top : 10px;
+}
+
+.welcomePageMainBox #right li {			/* Used by \in\welcome.jsp page */
+	margin-left : 0px;
+	margin-top : 5px;
+}
+
+.welcomePageMainBox #right ul {			/* Used by \in\welcome.jsp page */
+	list-style-type : disc;
+	list-style-image : url(../images/bofa/icons/list_greybullet.gif);
+}
+
+.welcomePageHorizontalBar {				/* Used by \in\welcome.jsp page */
+	empty-cells : show;
+	background-color : #D4001A;
+	height : 16px;
+}
+
+.featureGrid {							/* Feature Comparison table in Signup flow */
+	border-top : 1px solid #CCCCCC;
+	border-left : 1px solid #CCCCCC;
+	border-bottom : 1px solid #888888;
+	border-right : 1px solid #888888;
+	empty-cells : show;
+	width : 90%;
+}
+
+.featureGrid td,						/* Feature Comparison table in Signup flow */
+.featureGrid th {
+	border-top : 1px solid #888888;
+	border-left : 1px solid #888888;
+	border-bottom : 1px solid #CCCCCC;
+	border-right : 1px solid #CCCCCC;
+	empty-cells : show;
+	padding : 4px 5px 4px 8px;
+}
+
+.featureGrid th,						/* Feature Comparison table in Signup flow */
+.featureGrid td {
+	color : black;
+}
+
+.featureGridHeader {					/* Feature Comparison table in Signup flow */
+	font-weight : bold;
+}
+
+.selfServiceHeader {					/* Used by \services\accountant_payroll.jsp */
+	width: 100%;
+	padding-bottom : 10px;
+	border-bottom-style : solid;
+	border-bottom-width : 2px;
+	border-bottom-color : #647B8D;
+}
+
+div.topTab {							/* Used by \util\toptab.inc for drawing main tabs images */
+	height : 23px;						/* Height of internalToptabs.gif */
+	overflow : hidden;
+	cursor : pointer;
+}
+
+/* Internal tabs */
+div#internalTopTab1 { width : 79px; }		/* Width of "To Do" tab image area */
+div#internalTopTab2 { width : 83px; }		/* Width of "Pay Day " tab image area */
+div#internalTopTab3 { width : 121px; }		/* Width of "Taxes & Forms" tab image area */
+div#internalTopTab4 { width : 69px; }		/* Width of "Setup" tab image area */
+div#internalTopTab5 { width : 80px; }		/* Width of "Reports" tab image area */
+
+/* Accountant tabs */
+div#accountantTopTab1 { width : 78px; }		/* Width of "Clients" tab image area */
+div#accountantTopTab2 { width : 87px; }		/* Width of "Account" tab image area */
+div#accountantTopTab3 { width : 91px; }		/* Width of "Resources" tab image area */
+div#accountantTopTab4 { width : 60px; }		/* Width of "Help" tab image area */
+
+/* External tabs */
+div#externalTopTab1 { width : 71px; }		/* No longer appears to be used */
+div#externalTopTab2 { width : 85px; }		/* No longer appears to be used */
+div#externalTopTab3 { width : 93px; }		/* No longer appears to be used */
+div#externalTopTab4 { width : 94px; }		/* No longer appears to be used */
+div#externalTopTab5 { width : 92px; }		/* No longer appears to be used */
+
+/*employee site tabs*/
+div#employeeSiteTopTab1 { width : 93px; }	/* Width of "Paystubs" tab image area */
+div#employeeSiteTopTab2 { width : 94px; }	/* Width of "Account" tab image area */
+
+/*BofA2 tabset 002 */
+div#BofA2_tabset002_TopTab1 { width : 86px; }
+div#BofA2_tabset002_TopTab2 { width : 82px; }
+div#BofA2_tabset002_TopTab3 { width : 90px; }
+div#BofA2_tabset002_TopTab4 { width : 123px; }
+div#BofA2_tabset002_TopTab5 { width : 114px; }
+div#BofA2_tabset002_TopTab6 { width : 81px; }
+div#BofA2_tabset002_TopTab7 { width : 146px; }
+
+/*BofA2 tabset 008 */
+div#BofA2_tabset008_TopTab1 { width : 87px; }
+div#BofA2_tabset008_TopTab2 { width : 94px; }
+div#BofA2_tabset008_TopTab3 { width : 131px; }
+div#BofA2_tabset008_TopTab4 { width : 83px; }
+div#BofA2_tabset008_TopTab5 { width : 147px; }
+
+/*BofA2 tabset 009 */
+div#BofA2_tabset009_TopTab1 { width : 87px; }
+div#BofA2_tabset009_TopTab2 { width : 94px; }
+div#BofA2_tabset009_TopTab3 { width : 79px; }
+div#BofA2_tabset009_TopTab4 { width : 148px; }
+
+/*BofA2 tabset 012 */
+div#BofA2_tabset012_TopTab1 { width : 87px; }
+div#BofA2_tabset012_TopTab2 { width : 82px; }
+div#BofA2_tabset012_TopTab3 { width : 90px; }
+div#BofA2_tabset012_TopTab4 { width : 123px; }
+div#BofA2_tabset012_TopTab5 { width : 80px; }
+div#BofA2_tabset012_TopTab6 { width : 147px; }
+
+/*BofA2 tabset 013 */
+div#BofA2_tabset013_TopTab1 { width : 87px; }
+div#BofA2_tabset013_TopTab2 { width : 82px; }
+div#BofA2_tabset013_TopTab3 { width : 90px; }
+div#BofA2_tabset013_TopTab4 { width : 81px; }
+div#BofA2_tabset013_TopTab5 { width : 149px; }
+
+/*BofA2 tabset 014 */
+div#BofA2_tabset014_TopTab1 { width : 87px; }
+div#BofA2_tabset014_TopTab2 { width : 82px; }
+div#BofA2_tabset014_TopTab3 { width : 90px; }
+div#BofA2_tabset014_TopTab4 { width : 125px; }
+div#BofA2_tabset014_TopTab5 { width : 72px; }
+div#BofA2_tabset014_TopTab6 { width : 143px; }
+
+/*BofA2 tabset 016 */
+div#BofA2_tabset016_TopTab1 { width : 87px; }
+div#BofA2_tabset016_TopTab2 { width : 94px; }
+div#BofA2_tabset016_TopTab3 { width : 131px; }
+div#BofA2_tabset016_TopTab4 { width : 83px; }
+div#BofA2_tabset016_TopTab5 { width : 147px; }
+
+BODY, P, TH, TD, SPAN {					/* Content well font family and size */
+	font-size: 9pt;
+	font-family: Verdana;
+}
+
+.T1, H1 {								/* No longer appears to be used */
+	font-size : 13pt;
+	font-weight: bold;
+	color : #366496;
+	margin : 18px 0px 8px 0px;
+}
+
+.T2, H2 {								/* Used by Ops pages */
+	font-size : 11pt;
+	font-weight: bold;
+	color : #808080;
+	margin : 15px 0px 8px 0px;
+}
+
+.T3, H3 {								/* Used by Ops pages */
+	font-size : 8pt;
+	font-weight: bold;
+	color : black;
+	margin : 10px 0px 5px 0px;
+}
+
+
+.ACName {								/* No longer appears to be used */
+	font-size: 13pt;
+	font-weight: bolder;
+	color : #606060;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #C1C1C1;
+	text-align : right;
+	padding-right : 70px;
+	width : 80%;
+}
+
+.registerDatePicker {					/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	margin-bottom : 8px;
+}
+
+TABLE.register {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #9BA9B3;
+	width : 650px;						/* This used to be defined in the HTML <TABLE> tag */
+}
+
+TABLE.register2 {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #9BA9B3;
+	width : 800px;						/* This used to be defined in the HTML <TABLE> tag */
+}
+TABLE.register3 {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #9BA9B3;
+	width : 850px;						/* This used to be defined in the HTML <TABLE> tag */
+}
+TABLE.register4 {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #9BA9B3;
+	width : 1200px;						/* This used to be defined in the HTML <TABLE> tag */
+}
+
+TABLE.registerMid {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #9BA9B3;
+	width : 900px;						/* This used to be defined in the HTML <TABLE> tag */
+}
+TABLE.register TH {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #EAF1F7;
+	color : black;
+	font-weight : bold;
+}
+
+TABLE.register2 TH {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #EAF1F7;
+	color : black;
+	font-weight : bold;
+}
+
+TABLE.register3 TH {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #EAF1F7;
+	color : black;
+	font-weight : bold;
+}
+TABLE.registerMid TH {						/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	background-color : #EAF1F7;
+	color : black;
+	font-weight : bold;
+}
+
+TR.registerEvenLine {					/* BRANDING TEMPLATE TABLE 2; Even-numbered Check Register row */
+	background-color : #EBF6FD;
+}
+
+TR.registerOddLine {					/* BRANDING TEMPLATE TABLE 2; Odd-numbered Check Register row with white background */
+	background-color : white;
+}
+
+DIV.register {							/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	width : 650px;						/* This used to be defined in the HTML <TABLE> tag */
+	background-color : #3E7BA7;
+	margin : 3px;
+	padding : 2px 0px 2px 0px;
+}
+
+DIV.register2 {							/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	width : 800px;						/* This used to be defined in the HTML <TABLE> tag */
+	background-color : #3E7BA7;
+	margin : 3px;
+	padding : 2px 0px 2px 0px;
+}
+DIV.register3 {							/* BRANDING TEMPLATE TABLE 2; Check Register table */
+	width : 800px;						/* This used to be defined in the HTML <TABLE> tag */
+	background-color : #3E7BA7;
+	margin : 3px;
+	padding : 2px 0px 2px 0px;
+}
+
+
+TABLE.eserviceEnrollmentStatus {		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+	background-color : #CCCCCC
+}
+
+TABLE.eserviceEnrollmentStatus a, 		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+TABLE.eserviceEnrollmentStatus a:link {
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+TABLE.eserviceEnrollmentStatus TD {		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+	font-size: 9pt;
+	font-family: Arial;
+}
+
+TABLE.eserviceEnrollmentStatus TH {		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+	background-color : #DDDDDD;
+	color : black;
+	font-weight : bold;
+}
+
+TR.eserviceEnrollmentStatusNextActionLine {		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+	background-color : #EBF6FD;
+}
+
+TR.eserviceEnrollmentStatusLine {		/* Used by \in\account\eSvcEnrollmentStatus.jsp */
+	background-color : white;
+}
+
+.defaultLandingPageSignUpBox {			/* Used by \welcome dir files that are now redirected to \external dir */
+	border-style : solid;
+	border-width : 2px;
+	border-color : #407AA5;
+	empty-cells : show;
+}
+
+.defaultLandingPageSignUpBoxHeader {	/* Used by \welcome dir files that are now redirected to \external dir */
+	background-color : #407AA5;
+	padding : 5px;
+	padding-bottom : 0px;
+}
+
+.defaultLandingPageSignUpBoxBody {		/* Used by \welcome dir files that are now redirected to \external dir */
+	background-color : #F7F7F7;
+	padding : 5px;
+	padding-top : 0px;
+}
+
+.pcHistoryFinishBody {					/* Used by \in\account\pcHistoryFinish.jsp */
+	padding-left : 50px;
+	padding-top : 20px;
+}
+
+#testimonialsListing {					/* No longer appears to be used */
+	border-style : solid;
+	border-width : 1px;
+	border-color : #929292;
+	border-right-style : none;
+	empty-cells : show;
+}
+
+.testimonialsColumnHeader {				/* No longer appears to be used */
+	background-color : #AEC9DC;
+	border-right-style : solid;
+	border-right-width : 1px;
+	border-right-color : #929292;
+	padding : 3px 3px 3px 8px;
+	text-decoration : underline;
+	font-weight : bolder;
+	vertical-align : baseline;
+	cursor : pointer;
+}
+
+.testimonialsEvenRow {					/* No longer appears to be used */ 
+	background-color : #FFFFFF;
+	border-right-style : solid;
+	border-right-width : 1px;
+	border-right-color : #929292;
+	padding : 3px;
+	height : 32px;
+}
+
+.testimonialsOddRow {					/* No longer appears to be used */
+	background-color : #EBF6FD;
+	border-right-style : solid;
+	border-right-width : 1px;
+	border-right-color : #929292;
+	padding : 3px;
+	height : 32px;
+}
+
+.testimonialQuote {						/* Used by \services\testimonial\caseStudy.jsp */
+	color : black;
+	font-weight : bolder;
+}
+
+.testimonialBackgroundInfo {			/* Used by \services\testimonial\caseStudy.jsp */
+	color : #808080;
+	font-weight : bolder;
+}
+
+.testimonialsFeatureBox {				/* Used by \services\testimonial\caseStudy.jsp */
+	background-color : #C5E4DF;
+}
+
+#testimonialCaseStudy {					/* Used by \services\testimonial\caseStudy.jsp */
+	border-style : solid;
+	border-width : 1px;
+	border-color : #929292;
+	empty-cells : show;
+}
+
+.testimonialCaseStudyHeader {			/* Used by \services\testimonial\caseStudy.jsp */
+	background-color : #D3D3D3;
+	color : black;
+	font-weight : bolder;
+	padding : 3px 0px 3px 10px;
+}
+
+#topOfPageBoxedErrorMessage {		/* Used by browserCheck.jsp to display "Javascript disabled" message */
+	color: red;
+	font-weight:bold;
+	border-color: black;
+	border-width: thin;
+	border-style: groove;
+	font-size: 8px;
+	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+	display: none;
+}
+#confirmPageBoxedMessage {		/* Used by browserCheck.jsp to display "Javascript disabled" message */
+	color: green;
+	font-weight:bold;
+	border-color: green;
+	border-width: thin;
+	border-style: groove;
+	font-size: 8px;
+	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+	display: none;
+}
+#lastModifiedMessage {		 
+	color: black;
+	font-weight:ligth;
+	border-color: green;
+	border-width: thin;
+	border-style: groove;
+	font-size: 8px;
+	padding:5px 5px 2px 1px;
+	margin:5px 5px 2px 1px;
+	display: none;
+}
+DIV.browserWarningMessage {				
+	color: black;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.mySetupWizard {						/* No longer appears to be used */
+	background-color : #3877A0;
+	height : 10px;
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #1E537F;
+	padding: 5px 0px 5px 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.secureIconAndText {					/* Used by footer area "secureArea" text and icon */
+	font-weight : bold;
+	font-size : 7pt;
+	padding-bottom : 5px;
+	padding-left : 5px;
+}
+
+/*  External site stuff */
+.externalSiteNavTop {
+	margin-bottom : 18px;	
+}
+
+.externalSiteNavTopLogo {
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #C1C1C1;
+	padding-right : 238px;
+}
+
+.externalSiteNavTopLinks {
+	text-align : right;
+	vertical-align : bottom;
+	font-size : .8em;
+	font-weight : bold;
+	color : #666666;
+	word-spacing : -3px;
+	padding-top : 8px;
+	padding-bottom : 3px;
+}
+
+.externalSiteNavTopLinks a {
+	padding : 0px 5px 3px 5px;
+	font-size : .8em;
+	font-weight : bold;
+	color : #666666;
+	text-decoration : none;
+	white-space : nowrap;
+	cursor : pointer;
+	word-spacing : 3px;
+}
+
+.externalSiteNavTopLinks a#sign_in {
+	color : #D4001A;	
+}
+
+.externalSiteNavTopLinks a#sign_in:hover {
+	color : #AA051A;
+}
+
+.externalSiteNavTopLinks a:hover {
+	color : #7F99B2;
+}
+
+.externalSiteNavTopSearch {
+	width : 100%;
+	height : 100%;
+	background-color : #ECECEC;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #ECECEC;	
+}
+
+.externalSiteNavTopSearchCorner {
+	height : 5px;	
+}
+
+.externalSiteNavTopSearchBox {
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #C1C1C1;	
+	text-align : right;
+	padding : 2px 3px 2px 10px;
+	margin : 0px;
+}
+
+.externalSiteNavTopSearchBox form {
+	margin-bottom : 0px;
+	margin-top : 2px;
+}
+
+.externalSiteNavTopSearchLeft{
+	border-left-style : solid;
+	border-left-width : 1px;
+	border-left-color : #C1C1C1;
+	width : 4px;
+}
+
+.externalSiteNavTopDivider {
+	background-color : #ECECEC;
+	height : 5px;
+}
+
+.externalSiteNavTopTitle {
+	background-color : #D4001A;
+}
+
+.externalSiteNavSide {
+	width : 144px;
+	height : 400px;
+	text-align : left;
+	vertical-align : top;
+	margin : 0px;
+	padding : 0px;
+}
+
+.externalSiteNavSideCustomerSupport {
+	background-color : #E7E7E7;
+	padding : 10px 0px 10px 5px;
+	width : 144px;
+	margin-top : 5px;
+}
+
+.externalSiteNavSideCustomerSupport table {
+	padding : 0px 3px 0px 5px;
+}
+
+.externalSiteNavSideCustomerSupport * {
+	font-size : 8pt;	
+}
+
+.externalSiteNavSideRelatedLinks {
+	background-color : #CCCCCC;
+	padding : 20px 5px 30px 5px;
+	margin-top : 10px;
+	font-family : Verdana;
+	font-size : 8pt;
+}
+
+.externalSiteNavSideRelatedLinks a {
+	font-family : Verdana;
+	text-decoration : underline;
+	font-size : 8pt;
+}
+
+.externalSiteTitle {
+	font-family : Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	font-stretch : normal;
+	color : #003399;
+}
+	
+.mainContent {
+	padding : 0px 15px 15px 35px;
+	vertical-align : top;
+	font-size : 8pt;
+}
+
+.mainContent p {
+	font-size : 8pt;
+}
+
+.externalSiteFootnoteText {
+	margin : 0px;
+	padding : 0px;
+	font-size : 8pt;
+	margin-left : 7px;
+}
+
+.externalSiteFootnoteText a {
+	text-decoration : underline;
+}
+
+.popupHeader td {						/* Popup window header area */
+	background-color : #D4001A;
+	height : 15px;
+	border-bottom : 5px solid #ECECEC;
+	width : 100%;
+	padding-top : 5px;
+	padding-bottom : 4px;
+}
+
+.popupTitle {							/* Popup window title area */
+	color : white;
+	font-size : 11pt;
+	font-family : Verdana;
+	font-weight : bold;
+	padding-left : 15px;
+	vertical-align : middle;
+}
+
+.popupClose,							/* Popup window "close window" text */
+.popupClose a,							/* Popup window "close window" text */
+.popupClose a:visited {
+	color : white;
+	font-size : 8pt;
+	font-family : Verdana;
+	vertical-align : middle;
+	text-decoration : none;
+}
+
+.popupClose a:hover {					/* Popup window "close window" text */
+	text-decoration : underline;	
+}
+
+.popupBody {							/* Popup window body text */
+	border-top : 1px solid #CCCCCC;
+	padding : 15px 15px 20px 15px;
+	empty-cells : show;
+}
+
+.popupBody img {						/* Popup window body text */
+	float : left;
+	display : block;
+}
+
+.popupFooter {							/* Popup window footer text */
+	background-image : url(../images/bofa/popBAClogo.gif);
+	background-repeat : no-repeat;
+	background-position : center right;
+	height : 65px;
+	margin-right : 15px;
+}
+
+li.genericListSeparator {				/* Horizontal list separator such as footer and top right-side links */
+	font-size : 5pt;
+}
+
+.faqSection {
+	border-bottom: 1px solid #B6CFE4;
+}
+
+.faqSection h3 a {
+	text-decoration : none;
+	font-weight : normal;
+	background-image : url(../images/bofa/icons/back_to_top.gif);
+	background-repeat : no-repeat;
+	background-position : top left;
+	padding-left : 11px;
+}
+
+.pcHistoryCompanyTotalsInputColumn {	/* Used by \in\account\pcHistoryErCurrQtr.jsp */
+	text-align : left;
+}
+
+/* Report Classes */
+.reportGridLines {						/* General purpose report gridline color */
+	background-color : #999999;
+}
+
+.reportHeaderRow {						/* General purpose report header row style */
+	background-color : #E2E2E2;
+}
+
+FORM.subLinkForm {						/* Reports dropdown controls <FORM> tag */
+	margin : 0px;						/* Remove blank line after <FORM> tag */
+	float : left;						/* Allows Printer-Friendly links on same line as Reports dropdown controls */
+}
+
+.reportTopPrintLink {					/* Above report Printer-Friendly & View in Excel links */
+	float : right;						/* Force Printer-Friendly links to the far right */
+	width : 275px;						/* Defines Printer-Friendly links box width */
+	text-align : right;					/* Right-align text "Trouble viewing or printing?" */
+	padding-bottom : 15px;				/* Bottom padding after links & before report controls */
+}
+
+.reportTopPrintLinkExtended {			/* Specialized report Printer-Friendly & View in Excel links */
+	float : right;						/* Force Printer-Friendly links to the far right */
+	width : 400px;						/* Defines Printer-Friendly links box width */
+	text-align : right;					/* Right-align text "Trouble viewing or printing?" */
+	padding-bottom : 15px;				/* Bottom padding after links & before report controls */
+}
+.reportTopPrintLinkLeft {			    /* Specialized report Printer-Friendly & View in Excel links */
+	float : right;						/* Force Printer-Friendly links to the far right */
+	width : 400px;						/* Defines Printer-Friendly links box width */
+	text-align : left;					/* Right-align text "Trouble viewing or printing?" */
+	padding-bottom : 15px;				/* Bottom padding after links & before report controls */
+}
+.reportBottomPrintLinkLeft {			/* Specialized report Printer-Friendly & View in Excel links */
+	float : right;						/* Force Printer-Friendly links to the far right */
+	width : 400px;						/* Defines Printer-Friendly links box width */
+	text-align : left;					/* Right-align text "Trouble viewing or printing?" */
+	padding-bottom : 15px;				/* Bottom padding after links & before report controls */
+}
+TABLE.reportMain {						/* Main <TABLE> after Printer-Friendly links */
+	clear : both;						/* Reset above left/right floats before report controls */
+}
+
+DIV.reportDescText {						/* Descriptive text before report controls */
+	clear : both;						/* Reset above left/right floats before report controls */
+	padding-top : 10px;
+}
+
+.reportBottomPrintLink {				/* Below report Printer-Friendly & View in Excel links */
+	padding-top : 15px;
+}
+
+a.reportLinkOnHeaderBkgd {
+	color : #FFFFFF;
+}
+
+TD.reportFormControls {					/* Report date and employee filter controls */
+	background-color : #E2E2E2;
+	color : #000000;
+	white-space : nowrap;
+	border-top : 1px solid #999999;		/* Report "box" top line above date controls */
+	border-bottom : 1px solid #999999;	/* Report "box" top line above date controls */
+	border-left : 1px solid #999999;	/* Report "box" top line above date controls */
+	border-right : 1px solid #999999;	/* Report "box" top line above date controls */
+	padding-top : 10px;
+	padding-right : 10px;
+	padding-bottom : 10px;
+	padding-left : 10px;
+}
+
+TD.reportFormControls2 {					/* Report date and employee filter controls */
+	background-color : #E2E2E2;
+	color : #000000;
+	white-space : nowrap;
+	border-top : 1px solid #999999;		/* Report "box" top line above date controls */
+	border-bottom : 1px solid #999999;	/* Report "box" top line above date controls */
+	border-left : 1px solid #999999;	/* Report "box" top line above date controls */
+	border-right : 1px solid #999999;	/* Report "box" top line above date controls */
+	padding-top : 10px;
+	padding-right : 10px;
+	padding-bottom : 10px;
+	padding-left : 10px;
+	width:50%;
+}
+
+TD.reportFormControls form {			/* Report date and employee filter controls */
+	margin-bottom : 0px;
+}
+
+TD.reportFormControls .updateReportSubmit {	/* Report date and employee filter controls */
+	position : relative;				/* Results in precise positioning */
+	top : 4px;							/* Force proper button alignment */
+}
+
+TD.reportFormControlsSpacing {			/* Report date and employee filter controls */
+	height : 0px;						/* Blank space between controls and report body */
+}
+
+TABLE.report {
+/*	border-collapse : collapse;*/ 		/* Commenting out Hsi's recent fix #17589 because it causes #20389 and restoring old settings. */
+	border-top: 1px solid #999999;		/* Report "box" top line above date controls */
+	border-left: 1px solid #999999;		/* Report "box" left line */
+	width : 100%;						/* Necessary so report uses full content well width */
+}
+
+TABLE.report TH {
+	background-color : #E2E2E2;
+	color : black;
+	font-weight : bold;
+}
+
+TR.reportEven,
+TR.reportsPayrollSummaryEven,
+tr.evenRow {
+	background-color : #F7F7F7;			/* Report even row background color */
+}
+TR.reportEvenHistory,
+tr.evenRowHistory {
+	background-color : #3E7BA7;			/* Report even row background color */
+}
+
+TR.reportEvenShowEdit,
+tr.evenRow {
+	background-color : #F7F7F7;			/* Report even row background color */
+	border-color : red;
+}
+TR.reportOddShowEdit,
+tr.oddRow {
+	background-color : white;			/* Report odd row background color */
+	border-color : red;
+}
+TR.reportOdd,
+TR.reportsPayrollSummaryOdd,
+tr.oddRow {
+	background-color : white;			/* Report odd row background color */
+}
+
+TR.reportsPayrollSummaryTotals {		/* No longer appears to be used */
+	background-color : #E2E2E2;
+	font-weight : bold;
+	text-align : right;
+}
+
+TR.reportSummary {
+	background-color:#E2E2E2;
+	font-weight : bold;
+}
+
+DIV.report {
+	padding : 2px 0px 2px 0px;
+	background-color : #3E7BA7;
+	margin : 3px;
+}
+
+.report .tableCell {
+	padding : 3px;
+/*	border : 1px solid #999999;*/		/* Commenting out Hsi's recent fix #17589 because it causes #20389 and restoring old settings. */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;	
+	empty-cells : show;
+}
+
+.report .blankCell {
+/*	background-color : #FFFFFF;*/		/* Commenting out Hsi's recent fix #17589 because it causes #20389 and restoring old settings. */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;	
+}
+
+.report .compoundGroupVertical {		/* Used by com.paycycle.report.reportwriters.StandardHTMLReportWriter.java */
+	border-bottom-style : none;
+}
+
+.report .compoundGroupHorizontal {		/* Used by com.paycycle.report.reportwriters.StandardHTMLReportWriter.java */
+	border-right-style : none;
+}
+
+.report .indent {						/* Report indent */
+	text-indent : 15px;
+}
+
+.report .reverseIndent {				/* Report reverse indent */
+	text-indent : -15px;
+	padding-left : 20px;
+}
+
+.report .header,						/* Used by com.paycycle.report.reportwriters.ReportTableRow.java */
+.report .footer {
+	font-weight : bold;
+	background-color : #E2E2E2;
+}
+
+.report .total {						/* Used by com.paycycle.report.AbstractReportTableCell.java */
+	font-weight : bold;
+}
+
+.report .historical {					/* Used by com.paycycle.report.AbstractReportTableCell.java */
+	font-style : italic;
+}
+
+.report .notApproved {					/* Used by com.paycycle.report.AbstractReportTableCell.java */
+	font-weight : bold;
+}
+
+.report .autoSplit {					/* Used by com.paycycle.taglib.report.ReportCellTag.java */
+	padding-top : 0px;
+	padding-down : 0px;	
+}
+
+.report .formControls {					/* Report controls such as the Date Picker */
+	white-space : nowrap;
+	margin : 0px;
+	padding : 5px;
+}
+.success {
+    background-image: url("../images/tick_b.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-color: #F0F7D2;
+    border: 1px solid #CCC;
+    height : 25px;
+    margin-left: 5px;
+    text-align: left;
+    line-height: 21px;
+    padding-left: 35px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;  
+    width: 60%;
+    float: left;
+}
+
+/*
+ *succes display....
+ */
+.successDisplay {
+    color: blue;
+}
+TABLE.historyReport {					/* e.g \in\account\clientTaxHistory_dsp.inc */
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+
+TABLE.historyReport TH {				/* e.g \in\account\clientTaxHistory_dsp.inc */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	background-color : #E2E2E2;
+	color : black;
+	font-weight : bold;
+	padding : 3px;
+}
+
+TABLE.historyReport TD {				/* e.g \in\account\clientTaxHistory_dsp.inc */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding : 3px;
+}
+
+TABLE.taxReport {						/* Taxes & Forms - Pay Taxes table */
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+
+TABLE.taxReport TH {					/* Taxes & Forms - Pay Taxes table */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	background-color : #E2E2E2;
+	color : black;
+	font-weight : bold;
+	padding : 3px;
+}
+
+TABLE.taxReport TD {					/* Taxes & Forms - Pay Taxes table */
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding : 3px;
+}
+
+TABLE.alert {
+	border: 2px solid #000000;
+}
+
+ul.checklist {
+	margin : 5px 0px 5px 30px;
+}
+html>body ul.checklist {
+	margin-left : -10px;
+}
+
+/* For pc:label tag */
+.required {
+	text-align : right;
+	font-size : 8pt;
+}
+.optional {
+	text-align : right;
+	font-size : 8pt;
+}
+.alt {
+	text-align : left;
+}
+.head {
+	font-weight : bold;
+	text-align : center;
+}
+
+/* For To Do bullets/arrows vertical alignment */
+.toDoBullet1 {
+	vertical-align: top;
+	padding-top : 7px;
+}
+
+.toDoBullet2 {
+	vertical-align: top;
+	padding-top : 3px;
+}
+.fileUploadError {
+		width: 300px;
+		padding-top: 50px;
+		color: red;
+		text-align: left;
+		font-weight: bold;
+		text-shadow:#000;
+		padding : 3px;
+		border-right: 1px solid #999999;
+		border-bottom: 1px solid #999999;	
+		empty-cells : show;
+		
+}
+
+.fileUploadErrorField {
+		background:#FFFF66; 
+		color:red;
+}
+
+.errorField {
+		background:#FFFF66; 
+		color:red;
+}
+
+#clientLogoStyle{
+	/**background-color:#0E6900;
+	background: #0E6900;**/
+	background-color:#339900;
+	background: #339900;
+	align:center;
+}
+
+.signOut {
+	float: right;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.signOut a {
+	color: #D40019;
+	font-weight: bold;
+	font-size: .89em;
+}
+
+.inputFormTable {
+	width: 100%;
+	padding-right: 12px;
+	text-align: left;
+}
+
+/** for hidding jQuery UI close icon for dialog box */
+.no-close .ui-dialog-titlebar-close {
+	display: none;
+}
+
+
+/** This section was added during the implementation of the Menu/Permission component */
+span.spacerTwoPix {display:inline-block; width:2px;}
+span.spacerThreePix {display:inline-block; width:3px;}
+span.spacerFourPix {display:inline-block; width:4px;}
+span.spacerFivePix {display:inline-block; width:5px;}
+span.spacerTenPix {display:inline-block; width:10px;}
+span.spacerFifteenPix {display:inline-block; width:15px;}
+span.spacerTwentyPix {display:inline-block; width:20px;}
+span.spacerTwentyFivePix {display:inline-block; width:25px;}
+span.spacerThirtyPix {display:inline-block; width:30px;}
+span.spacerThirtyFivePix {display:inline-block; width:35px;}
+span.spacerFortyPix {display:inline-block; width:40px;}
+span.spacerFortyFivePix {display:inline-block; width:45px;}
+span.spacerFiftyPix {display:inline-block; width:45px;}
+span.spacerFiftyFivePix {display:inline-block; width:55px;}
+span.spacerSixtyPix {display:inline-block; width:60px;}
+span.spacerSixtyFivePix {display:inline-block; width:65px;}
+span.spacerSeventyPix {display:inline-block; width:70px;}
+span.spacerSeventyFivePix {display:inline-block; width:75px;}
+span.spacerEightyPix {display:inline-block; width:80px;}
+span.spacerEightyFivePix {display:inline-block; width:85px;}
+span.spacerNinetyPix {display:inline-block; width:90px;}
+span.spacerNinetyFivePix {display:inline-block; width:95px;}
+span.spacerHundredPix {display:inline-block; width:100px;}
+
+
+.alignRight {
+	text-align: right;
+}
+.alignLeft {
+	text-align: left;
+}
+.alignCenter {
+	text-align: center;
+}
+.fivePercentWidth{
+	width: 5%;
+}
+.tenPercentWidth {
+	width: 10%;
+}
+.fifteenPercentWidth {
+	width: 15%;
+}
+.eighteenPercentWidth {
+	width: 18%;
+}
+.twentyPercentWidth {
+	width: 20%;
+}
+.twentyFivePercentWidth {
+	width: 25%;
+}
+.thirtyPercentWidth {
+	width: 30%;
+}
+.thirtyFivePercentWidth {
+	width: 35%;
+}
+.fortyPercentWidth {
+	width: 40%;
+}
+.fortyFivePercentWidth {
+	width: 45%;
+}
+.fiftyPercentWidth {
+	width: 50%;
+}
+.fiftyFivePercentWidth {
+	width: 55%;
+}
+.sixtyPercentWidth {
+	width: 60%;
+}
+.seventyPercentWidth {
+	width: 70%;
+}
+.seventyFivePercentWidth {
+	width: 75%;
+}
+.eightyPercentWidth {
+	width: 80%;
+}
+.eightyFivePercentWidth {
+	width: 85%;
+}
+.ninetyPercentWidth {
+	width: 90%;
+}
+.ninetyFivePercentWidth {
+	width: 95%;
+}
+.ninetySevenPercentWidth {
+	width: 97%;
+}
+.hundredPercentWidth {
+	width: 100%;
+}
+
+.verticalAlignTop {
+	vertical-align: top;
+}
+.formButtonRow {
+	padding-top: 5px;
+	text-align: left;
+}
+.form-btn {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #396298;
+	border-color: #666666;
+}
+.alignRight {
+	text-align: right;
+}
+.alignLeft {
+	text-align: left;
+}
+.alignCenter {
+	text-align: center;
+}
+table.displayTable {
+	background-color: #9BA9B3;
+}
+table.displayTable th {
+	background-color: #EAF1F7;
+	color: black;
+	font-weight: bold;
+}
+.blockDisplay {
+	display: block;
+}
+.required-asterik {
+	font-weight: bold;
+}
+.form-label {
+	
+}
+#notification-msg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 400px;
+	height: auto;
+	background-color: #F0F7D2;
+	border: 1px solid #CCC;
+	margin-left: 0px;
+	text-align: left;
+    line-height: 21px;
+    padding-left: 35px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /*color: #D40019;*/
+    color:#047a10;
+	font-weight: bold;
+}
+
+#parent-msg{
+	position: relative;
+}
+
+.display {
+	display: '';
+}
+.undisplay {
+	display: none;
+}
+.formInputDescText {
+	font-style: italic;
+}
+a.linkWithUnderline {
+	text-decoration: underline !important;	
+}
+
+/*
+ *notifier for span class....
+ */
+.noti_bubble_disp {
+    padding:2px;
+    background-color:#FF0000; /* you could use a background image if you'd like as well */
+    color:#FFFFFF;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-weight:bold;
+    font-size:0.75em;
+
+    /* The following is CSS3, but isn't crucial for this technique to work. */
+    /* Keep in mind that if a browser doesn't support CSS3, it's fine! They just won't have rounded borders and won't have a box shadow effect. */
+    /* You can always use a background image to produce the same effect if you want to, and you can use both together so browsers without CSS3 still have the rounded/shadow look. */
+    border-radius:10px;
+    box-shadow:1px 1px 1px gray;
+}
+
+/*
+ *notifier for div id....
+ */
+#noti_Container {
+	position:relative;
+    width:16px;
+    height:16px;
+    float: right;
+    margin-right: 205px;
+}
+
+/*
+ *notifier for div id with img....
+ */
+#noti_Container img{
+    width:16px;
+    height:16px;
+}
+
+/*
+ *notifier for div class....
+ */
+.noti_bubble {
+    position:absolute;    /* This breaks the div from the normal HTML document. */
+    top: -6px;
+    right:-6px;
+    padding:1px 2px 1px 2px;
+    background-color:red; /* you could use a background image if you'd like as well */
+    color:white;
+    font-weight:bold;
+    font-size:0.85em;
+
+    /* The following is CSS3, but isn't crucial for this technique to work. */
+    /* Keep in mind that if a browser doesn't support CSS3, it's fine! They just won't have rounded borders and won't have a box shadow effect. */
+    /* You can always use a background image to produce the same effect if you want to, and you can use both together so browsers without CSS3 still have the rounded/shadow look. */
+    border-radius:10px;
+    box-shadow:1px 1px 1px gray;
+}
+
+/*
+*for toggle switch
+*/
+.toggle {
+    margin:0 0 0 0rem;
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 1.4rem;
+}
+
+.toggle input {
+    display: none;
+}
+
+#toggleInd {
+    display: none;
+}
+
+.roundbutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0.2;
+    width: 100%;
+    background-color: #767070;
+    display: block;
+    transition: all 0.3s;
+    border-radius: 3.4rem;
+    cursor: pointer;
+}
+
+.roundbutton:before {
+    position: absolute;
+    content: "";
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 100%;
+    display: block;
+    left: 0.3rem;
+    bottom: 0.2rem;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+input:checked + .roundbutton {
+    background-color: #2185a3;
+}
+
+input:checked + .roundbutton:before  {
+    transform: translate(1.6rem, 0);
+}
+
+.aTagButton:link, aTagButton:visited {
+ color: #E6FAF9;
+}
+
+.aTagButton {
+    display: block;
+    width: 70px;
+    height: 18px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    line-height: 3px;
+}
+
+.aTagButton:hover {
+    color: white;
+    background: black;
+}
+
+.verify {
+    width:8%;
+    padding-left:1%;
+}

@@ -1,0 +1,383 @@
+body {
+	font-family : Verdana;
+	font-size : 8pt;
+	background-color: #FFFFFF;
+	margin: 0px 5px 0px 0px;
+	text-decoration:none;
+}
+
+body.sample {
+	background :url(/images/samplemark.gif);
+}
+
+body.sample .navSide {
+	background : url(/images/samplemark.gif); 
+	background-position: -14px -13px;
+}
+
+body.sample .navFooter {
+	background : url(/images/samplemark.gif); 
+	background-position: 0px 20px;
+}
+
+table
+{ 
+	font-size: 8pt;
+}
+
+#correct {
+	font-size: 8pt;
+}
+
+.fn {
+	font-size : 7pt;
+}
+
+.fn a:link,
+.fn a,
+.fn a:visited {
+	font-size : 7pt;
+}
+
+.readonlystyle {
+	 background: #ccc;
+}
+
+.mainContent ul,
+.mainBody ul {
+	list-style-image : url(/images/list_greybullet.gif);	
+}
+
+a,
+a:link {
+	color : #405EBE;
+	font-size : 8pt;
+	font-family: verdana;
+}
+
+a:hover {
+	color : #0000FF;
+}
+
+.notCustomerBox {
+	font-size : 8pt;	
+	padding : 20px 5px 10px 5px;
+}
+
+.contentlink {
+	color : blue;						/* Help Index page - Blue on purpose */
+	TEXT-DECORATION: underline;	
+}
+
+.actionlink {
+	color : #800080;					/* Help Index page - Purple on purpose */
+	TEXT-DECORATION: underline;
+}
+
+.sectionlink {							/* No longer appears to be used */
+	color : #663399;
+	TEXT-DECORATION: underline;
+}
+
+#homepage {								/* No longer appears to be used */
+	width : 60%;
+}
+
+.homepageHeader {						/* Used by measure.jsp & home.jsp that's now redirected to external/home.jsp */
+	background-color : #9397A2;
+}
+
+.homepageMainBody {						/* Used by home.jsp that's now redirected to external/home.jsp */
+	background-color : #DDEAE2;
+}
+
+.homepageOrganicListing {				/* Used by home.jsp that's now redirected to external/home.jsp */
+	list-style : none outside url(../images/standard/icons/squareBullet.gif);
+	position : relative;
+	left : -20px;
+}
+
+.ola {
+	font-size : 8pt;
+}
+.ovride{
+	text-align: center;
+	font-size : 8pt;	
+}
+.featureLinks {							/* No longer appears to be used */
+	position : relative;
+	top : -10px;
+}
+
+.leftNavSupport,						/* Right-side "Questions?" support box */
+.leftNavSupport a {
+	font-size : 7pt;
+	font-family : Verdana;
+}
+
+.leftNavSupport {						/* Right-side "Questions?" support box */
+	border : 1px solid #D3E2EF;
+	padding : 5px;
+	background-color : #F0F5FA;
+}
+
+.leftNavSupportTitle {					/* Right-side "Questions?" support box */
+	font-size : 7pt;
+	font-family : Verdana;
+	font-weight : bold;
+	padding : 4px 5px 4px 5px;
+	background-color : #D3E2EF;
+	border-bottom : 1px solid white;
+}
+
+.note {									/* Used for text Notes such as in the Signup Form */
+	font-size : 8pt;
+}
+
+.label {								/* e.g. Setup Overview bolded labels (\account\client.jsp) */
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #333333;
+}
+
+.initialText {
+	font-weight : normal;
+	color : black;	
+}
+
+.error {								/* Red informational/error messages at the top of pages */
+	font-size : 10pt;
+	font-weight : bold;
+	border : 1px solid black;
+	padding : 10px 10px 10px 57px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	background-image : url(../images/icons/alertInformational.gif);
+	background-repeat : no-repeat;
+	background-position : center left;
+}
+
+.activeTH {								/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	background-color : #E1E1E1;
+	color : black;
+	font-weight : bold;
+	font-size : 8pt;
+	padding : 5px;
+	border-style : solid;
+	border-width : 1px;
+	border-color : white;
+	border-left-style : none;
+	border-right-style : none;
+	text-align : left;
+}
+
+.activeTD {								/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	background-color : #F0F7D2;
+	color : black;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #E1E1E1;
+}
+
+.buttonRow {							/* Side-by-side "Next" "Exit Wizard" button row */
+	text-align : left;					/* NOTE: this overrides any alignment setting of the buttons in the jsp! */
+	padding-top : 10px;
+}
+
+.infoBox {								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-top-color : #CCCCCC;
+}
+
+.condensedInfoBox {						/* BRANDING TEMPLATE TABLE 3; Specifically, Employee & Contractor Overview */
+	border-style : solid;
+	border-width : 1px;
+	border-color : #CCCCCC;
+	border-left-style : none;
+	border-right-style : none;
+	width : 80%;
+}
+.infoTH,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTH2 {
+	padding-top : 5px;
+	padding-right : 20px;
+	padding-bottom : 5px;
+	padding-left : 10px;
+	font : normal normal bold 9pt Verdana;
+	background-color : #F1F1F1;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #CCCCCC;
+	text-align : left;
+}
+
+.infoTD,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTD2 {
+	background-color : #F7F7F7;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+}
+
+.infoTROdd,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTREven {
+	background-color : #FFFFFF;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #CCCCCC;	
+	font-size : 8pt;
+	font-family : Verdana;
+}
+.infoTROddBlink,								/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.infoTREvenBlink {
+	background-color : #FFFFFF;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #CCCCCC;	
+	font-size : 8pt;
+	font-family : Verdana;
+	text-decoration : blink;
+}
+
+.condensedInfoTREven,					/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+.condensedInfoTROdd {
+	background-color : #FFFFFF;
+	padding : 5px;
+}
+
+.condensedInfoTRSelected {				/* BRANDING TEMPLATE TABLE 3; e.g. Approve Paychecks, Pay Day Print, Taxes & Forms Overview, Forms, Reports Overview */
+	background-color : #D7E6F0;
+	padding : 5px;
+	cursor : pointer;
+}
+
+.infoFooter {							/* e.g. Work Locations Overview page, table row with "Add a Work Location" link */
+	background-color : #EAF1F7;
+	padding-top : 10px;
+	padding-right : 20px;
+	padding-bottom : 10px;
+	padding-left : 20px;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-bottom-color : #989CA5;
+}
+
+.formTable {							/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	width : 748px;						/* Content well has a fixed width */
+}
+
+.formTable1 {							/* BRANDING TEMPLATE TABLE 1; e.g. To Do, Create Paychecks, Setup Edit Contact Info, Setup Pay Policies */
+	width : 100%;						/* Content well has a fixed width */
+}
+
+
+.simpleFrame td {						/* Used by \pay\payDayReports.jsp */
+	padding : 2px 20px 2px 5px;
+}
+
+.title {								/* Page title */
+	font-family : Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	font-stretch : normal;
+	color: #D4001A;
+/*	width : 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	padding-top : 5px;					/* Padding above page title */
+	padding-right : 0px;
+	padding-bottom : 8px;				/* Padding below page title before line */
+	padding-left : 12px;				/* Whitespace to left of title (and content well) */
+	border-bottom-style: solid;			/* Line below page title */
+	border-bottom-width: 1px;
+	border-bottom-color: #C1C1C1;
+}
+
+.titlePrinterFriendly {					/* Printer-friendly page title */
+	font-family : Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	font-stretch : normal;
+	color: #D4001A;
+/*	width : 1000px;*/					/* Commented out - Causes horizontal scrollbar */
+	padding-top : 10px;					/* Padding above page title */
+	padding-right : 20px;
+	padding-bottom : 10px;				/* Padding below page title before line */
+	padding-left : 0px;					/* PrinterFriendlyHTMLReportWriter.java sets an overall margin-left : 20px */
+}
+
+.serviceTitle {							/* \services\accountant_payroll.jsp page title */
+	font-size: 17pt;
+	font-weight : bolder;
+	color: #808080;
+	margin : 5px 0px 15px 0px;
+}
+
+.offerTextTitle {						/* Offer text title such as during Signup flow */
+	font-size : 13pt;
+}
+
+.notificationTitle {					/* No longer appears to be used */
+	font-size: 12pt;
+	font-weight: bold;
+	color: #669999;
+}
+
+.notification {							/* No longer appears to be used */
+	font-size: 10pt;
+	font-weight: normal;
+	color: #808080;
+}
+
+/* The following .navTop through .navTopGreyLines matches values from the BofA sample CSS except as noted below */
+.navTop {								/* Top area where left-side logo displays */
+	width : 1000px;						/* Header/tabset width */
+}
+
+.navTop a {
+	text-decoration: none;				/* Default: no underlined anchor link */
+}
+
+.navTop a:hover {
+	text-decoration: underline;			/* Default: underlined anchor link hover */
+}
+
+.navTop ul {
+	list-style: none;					/* Default: no bullets for unordered lists */
+}
+
+.navTop ul li {
+	float: left;
+}
+
+.navTopLogo img {						/* Exact positioning of top left-side logo; Not from BofA sample CSS */
+	float : left;						/* Required for forcing the logo gif to be on the left */
+	margin-left: 14px;
+	margin-top: 17px;
+}
+
+.navTopLinks {							/* Top area gradient background and spacing of right-side links */
+/*	background-color : #B75F5E;*/		/* Debugging red background color */
+}
+
+.navTopBannerAndSignOffLink { 
+	float: right;						/* Right-justify "Online Business Suite" gif and Sign Off logo */
+}
+
+.navTopBanner {
+	margin: 0px;
+	display: block;
+	padding-top : 16px;					/* Adjust "Online Business Suite" logo to match BofA CSS exactly */
+	padding-right : 0px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	float: left;
+}

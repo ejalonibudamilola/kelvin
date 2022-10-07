@@ -1,0 +1,124 @@
+
+
+h1 {
+	color: "#336699";
+	font-family: verdana;
+	border: none; 
+	}
+
+h2 {
+	color: "#336699";
+	font-family: verdana;
+	border: none; 
+	}
+
+h3 {
+	font-family: verdana;
+	color: "#336699"; 
+	}
+h4 {
+	font-family: verdana;
+	color: "#336699";
+	}
+h5 {
+	font-family: verdana;
+	color: "#336699";
+	}
+h6 {
+	font-family: verdana;
+	color: "#336699";
+	}
+
+
+em {
+	font-family: verdana;
+	font-size: 8pt;
+	color: "#000000";
+	
+	}
+
+strong {
+	font-family: verdana;
+	font-size: 7pt;
+	color: red;
+	}
+
+
+hr {
+	color:"#336699";
+	}
+
+.b {
+background-color: "#33C0C8"; color: "#FFFFFF"; 
+font-family: verdana; 
+font-size: 8pt; 
+border-style: outset; 
+border-color: "#FFFFFF"; padding: 0;
+}
+
+.bmod {color:"#FFFFFF";text-decoration:none;
+	font-family: verdana; 
+	font-size: "-5";
+	}
+
+.new {color:"red";text-decoration:none;
+font-family: verdana;
+font-size: "-5";
+}
+
+blockquote {
+	font-family: verdana;
+	font-size: 8pt;
+	color: "#CC6600";
+	height: 10px; margin-bottom: 5px;margin-top: 2px;
+	}
+.table {
+	 border-top: red  solid; 
+     
+     
+}
+td {
+font-family: verdana; 
+	  font-size: 8pt;
+	  color: "#000000";
+		 
+	  }
+b {
+color: "000000";
+  font-size: 8pt;
+}
+
+ta { 
+        background-color: #FFFFCC; 
+        border: solid;
+        border-color: #008800;
+        border-width : 1px;
+        color: #993333; 
+        font-size: 8pt; 
+        font-family: Verdana;
+        scrollbar-face-color: #9CFF9C;
+        scrollbar-highlight-color: #9CFF9C;
+        scrollbar-3dlight-color: #9CFF9C;
+        scrollbar-darkshadow-color: #9CFF9C;
+        scrollbar-shadow-color: #9CFF9C;
+        scrollbar-arrow-color: #008800;
+        scrollbar-track-color: #9CFF9C;
+        padding-left, padding-top, padding-bottom: 2px;
+        vertical-align: middle;
+} 
+
+.bullet1 {
+	font-family: Verdana;
+	font-size: 12px;
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+li {
+	font-family: Verdana;
+	font-size: 12px;
+	list-style-position: inside;
+	/*list-style-image: url(images/arrow_red.gif)*/
+}
+
+#E8EEFA  #F6F6F6 #efefef #adff2f

@@ -1,0 +1,167 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ include file="/WEB-INF/jsp/includes.jsp" %>
+
+<html>
+<head>
+<title> HR Custom Reports Page  </title>
+<link rel="stylesheet" href="styles/omg.css" type="text/css" />
+<link rel="stylesheet" href="styles/skye.css" type="text/css" media ="screen">
+<link rel="icon" 
+      type="image/png" 
+      href="<c:url value="/images/coatOfArms.png"/>">
+
+<style type="text/css">
+.style3 {
+	text-decoration: underline;
+	color: #0000FF;
+}
+</style>
+</head>
+
+<body class="main">
+
+	<table class="main" width="70%" border="1" bordercolor="#33c0c8" cellspacing="0" cellpadding="0" align="center">
+
+		<%@ include file="/WEB-INF/jsp/headerFile.jsp" %>
+		<tr>
+			<td>
+				<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+					
+	<tr>
+		<td colspan="2">
+		<div class="title">
+			HR Custom Reports</div>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" class="mainBody" id="mainBody">
+		<table width="95%">
+			<tr>
+				<td valign="top">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="45%" valign="top">
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" class="infoBox" id="pcbox0">
+							<tr>
+								<td colspan="50" class="infoTH">Employee Related Reports</td>
+							</tr>
+							<tr>
+								<td class="infoTREven">
+								<a href="${appContext}/viewEmployeeRemunerationReport.do">Employee General Information Report</a><br/>
+								View Employees General Information Report<br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="infoTROdd">
+								<a href="${appContext}/viewPayGroupEmployees.do">Employee By Designation</a><br/>
+								View Employees on particular Pay Groups e.g., Doctors,Nurses etc.<br/>
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="infoTREven">
+								<a href="${appContext}/viewSalaryStructure.do">Employee By Pay Group</a><br/>
+								View Employees on Grade Level and other Pay Structures<br/>
+								</td>
+							</tr>
+							<tr>
+							  <td class="infoTREven">
+									<a href="${appContext}/viewEmpDueForPromotion.do">Employees Due for Promotion</a><br />
+									View Employees due for promotion this month.<br /></td>
+							</tr>
+							 
+							 
+							   	<tr>
+								  <td class="infoTROdd">
+										<a href="${appContext}/viewEmpDueForRetirement.do">Employees Due for Retirement</a><br />
+										View Employees due for retirement this month.<br /></td>
+								</tr>
+							<tr>
+								<td class="infoTREven">
+								<a href="${appContext}/searchEmpForPromoHistory.do">Employee Promotion History</a><br />
+								View Employee Promotion History<br />
+								</td>
+							</tr>   	 
+							<tr>
+								<td class="infoTROdd">
+								<a href="${appContext}/payrollSummaryByPaygroup.do">Payroll Summary by GL/PayGroup</a><br />
+								View Employees Payroll Summary By Grade Level/ PayGroup <br />
+								</td>
+							</tr>
+							
+						   
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="30">&nbsp;</td>
+					</tr>
+					
+					<tr>
+						<td height="30">&nbsp;</td>
+					</tr>
+					
+				</table>
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td width="45%" valign="top">
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" class="infoBox" id="pcbox0">
+					<tr>
+						<td colspan="50" class="infoTH">HR Related Reports</td>
+					</tr>
+					 <tr>
+								<td class="infoTREven">
+								<a href="${appContext}/viewEmployeeBVNInfo.do">Employee B.V.N Report</a><br/>
+								View Employees Bank Verification Number (BVN) Report<br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="infoTROdd">
+									<a href="${appContext}/empByLgaForm.do">Employees By Local Govt. Area</a><br />
+									View Employees by their Local Government Areas.<br />
+								</td>
+							</tr>
+							<tr>
+								<td class="infoTREven">
+								<a href="${appContext}/empByRel.do">Employees By Religion</a><br />
+								View Employees By Religion<br />
+								</td>
+							</tr>
+					<tr>
+						<td class="infoTREven">
+								<a href="${appContext}/selectYOBForm.do">Year of Birth</a><br />
+								View Employees by Year of Birth<br />
+						</td>
+					</tr>
+					<tr>
+						<td class="infoTROdd">
+						<a href="${appContext}/selectYOR.do">Expected Year of Retirement</a><br />
+						View Employees by their expected year of retirement. <br />
+						</td>
+					</tr>
+					 
+					<tr>
+						<td class="infoTREven">
+						<a href="${appContext}/employeeYOSForm.do">Year(s) of Service </a><br />
+							View Employees by Year(s) of Service.<br />
+						</td>
+					</tr>
+					                  
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+		<tr>
+			<%@ include file="/WEB-INF/jsp/footerFile.jsp" %>
+		</tr>
+	</table>
+
+</body>
+
+</html>

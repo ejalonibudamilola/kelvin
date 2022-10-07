@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+
+.base {
+			background: #FFFFFF; border: 1px solid #CCCCCC; color: #000000;
+			background:-moz-linear-gradient(top, #FFFFFF, #DDDDDD); 
+			background:-webkit-gradient(linear,0 0, 0 100%, from(#FFFFFF), to(#DDDDDD));
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+			box-shadow: 5px 5px 5px #CCCCCC; -webkit-box-shadow: 5px 5px #CCCCCC; -moz-box-shadow: 5px 5px #CCCCCC;
+			filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=135, Strength=5);
+			height: 360px; 
+			top: 25px; 
+			width: 260px; 
+			left: 15%;  
+			cursor: pointer; font-size: 50px; text-decoration: none;
+			padding: 15px 0 0 0; 
+		}
+
+.topDisplay{
+	border-bottom: solid 1px #FF6600;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.autoPad{
+	width: 140px;
+	text-align: center;
+	font-size:11px;
+}
+
+
+.width180{
+	width: 200px;
+	text-align: center;
+	font-size:11px;
+}
+.autoMargin{
+	margin: auto;
+}
+.color{
+	color: #FF6600;
+}
+
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.hoverZoom{
+	width: 150px;
+	height:150px;
+}
+ 
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.holdAvatar{
+	width:150px;
+	height: 190px;
+	border: 1px solid #CCCCCC;
+	margin: auto;
+	margin-bottom:5px;
+}
+
+.holdAvatar img{
+	width:150px;
+	height: 190px;
+	border: 1px solid #CCCCCC;
+	margin: auto;
+	margin-bottom:5px;
+}
+
+.formElementDisplayPix{
+	width: 40%;
+	margin-left: 5%;
+	float: left;
+	padding-top: 240px;
+}
+
+#identityCardView{
+	float: left;
+	width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#mergeLeft{
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+#mergeRight{
+	margin-top: 60px;
+	float: left;
+	width: 20%;
+	margin-left: 100px;
+	margin-right: auto;
+}
+
+.comment-wrap {
+    background: none repeat scroll 0 0 #FFFBE9;
+    border: 1px solid #DCC76A;
+
+}
+
+.comment-nav {
+    background: none repeat scroll 0 0 #FFF1B5;
+    line-height: 21px;
+    padding:5px;
+  
+}
+
+.comment-item {
+    line-height: 24px;
+    padding:5px;
+}
